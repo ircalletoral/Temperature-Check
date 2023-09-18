@@ -5,9 +5,8 @@ p_temp = input("Please enter the patient's temperature in F: ")
 print("*****************************************")
 
 #Digit Check and Main computing line
-#I spent like 1 hour finding the best way to check for digits, at the end I chose to check
-#For the absence of letters, this worked. What would be a way to check for no letters or spaces?
-#With this code, the input twenty 25 will gve me an error code, and I would like for it to be redirected to the negative answer
+#I spent like 1 hour finding the best way to check for digits, at the end I chose to check for the absence of letters, this worked. What would be a way to check for no letters or spaces?
+#With this code, the input 'twenty 25' will gve me an error code, and I would like for it to be redirected to the negative answer, how could I do that?
 if p_temp.isalpha() == False:
     #Convert to float if applicable
     p_temp = float(p_temp)
